@@ -85,7 +85,7 @@ ApplicationWindow {
         Rectangle{
             anchors.fill: parent
             color:app.c3
-            visible:xEstado.text!==''
+            visible:xEstado.text!==''&&xEstado.text==='Espartanos'
             Text {
                 id: xEstado
                 text: 'Espartanos'
